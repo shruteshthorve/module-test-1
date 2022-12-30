@@ -1,0 +1,216 @@
+
+.outlet{
+    /* position: absolute; */
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 87px;
+    background: #000000;
+    display: flex;
+
+}
+
+.outlet-img{
+    position: relative;
+    left: 650px;
+    top: 300px;
+}
+
+.head-img{
+    width: 634px;
+    height: 295px;
+}
+
+.outlet-text{
+    position: absolute;
+    width: 100px;
+    height: 745px;
+    left: 56px;
+    top: 100px;
+    margin-top: 50px;
+} 
+
+.textP{
+    width: 150px;
+    height: 150px;
+    left: 96px;
+    font-weight: 650;
+    font-size: 130px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+nav{
+    width:100%;
+    height:75px;
+    line-height: 75px;
+    padding: 0px 50px;
+    position: fixed;
+    background-color: black;
+    border-bottom: 2px solid #FFFFFF;
+    
+}
+
+nav .company p{
+    font-size: 20px;
+    float: left;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 20px;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.img-about-us {
+    position: relative;
+    left: -20px;
+    top: 800px;
+}
+
+.img-position {
+    width: 300px;
+    height: 400px;
+}
+.ourservices {
+    margin-top: 750px;
+    margin-left: 85px;
+    margin-bottom: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    column-gap: 20px;
+    row-gap: 15px;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+}
+.box {
+    border: #000000 solid 1px;
+    height: 200px;
+}
+.box h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.form-contact-us input{
+    width: 1000px;
+    margin-left: 140px;
+
+}
+.form-contact-us {
+    border: #000000 1px solid;
+}
+footer{
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+}
+
+input{
+    padding: 15px;
+    width: 75%;
+    background-color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+}
+
+form{
+    margin-left: 240px;
+}
+
+footer h1{
+    margin-top: 150px;
+    padding: 40px;
+    margin-left: 400px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 121px;
+    color: #FFFFFF;
+}
+
+button{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 150px;
+  }
+  .about-us{
+    position: absolute;
+    margin: 50px;
+    display: flex;
+}
+
+.about-us-img{
+    margin: 60px;
+    width: 372px;
+    height: 526px;
+    left: 89px;
+    top: 1000px;
+}
+
+.about-us-text{
+    padding: 80px;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.about-us-text h1{
+    padding-bottom: 15px;
+}
+.about-us-text p {
+    margin-right: 90px;
+    padding-right: 70px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+    transition-delay:0.3s;
+
+  }
+  @keyframes changeColor{
+    0%{
+        transform: scaleX(0);
+    }
+    50%{
+        transform: scaleX(2);
+    }
+    75%{
+        transform: scaleX(3);
+    }
+    100%{
+         transform: scaleX(0);
+    }
+  }
